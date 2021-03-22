@@ -6,6 +6,22 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+/* modif */
+.modif_bcg {
+  background-color: #6d3a3a;
+}
+
+figure {
+  color: black;
+}
+
+.row {
+  margin: auto;
+}
+.foot_icon {
+  display: flex;
+  justify-content: space-around;
+}
 
 a,
 button {
@@ -702,7 +718,6 @@ p {
 }
 
 .social {
-  max-width: 400px;
   margin: auto auto auto auto;
 }
 
@@ -742,7 +757,7 @@ h4 {
 }
 
 .portfolio-thumb {
-  margin-bottom: 24px;
+  margin: auto;
 }
 
 .portfolio-row {
@@ -786,16 +801,16 @@ h4 {
 }
 
 .btn-atomic-tangerine:hover {
-  background: #c27956 !important;
+  background: rgba(255, 255, 255, 1) !important;
   color: #1e1414 !important;
 }
 
 .ltc-white {
-  color: #ffffff !important;
+  color: black !important;
 }
 
 .ltc-white:hover {
-  color: #cccccc !important;
+  color: white !important;
 }
 
 .ltc-atomic-tangerine {
@@ -824,7 +839,7 @@ h4 {
 }
 
 .bg-presentation {
-  background-image: url("img/image-de-presentation.bmp");
+  background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
