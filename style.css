@@ -7,6 +7,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 /* modif */
+.title_modif {
+  font-size: 21px;
+}
 .modif_bcg {
   background-color: #6d3a3a;
 }
@@ -755,6 +758,7 @@ h4 {
 
 .white {
   color: #1e1414 !important;
+  font-size: 20px;
 }
 
 .portfolio-thumb {
